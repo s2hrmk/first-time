@@ -1,244 +1,248 @@
-@import 'color.css';
-@font-face{
-    font-family: iranyekan;
-    src: url(../webfonts/IRANYekanThinFaNum.ttf) format(.ttf);
-    src: url(../webfonts/IRANYekanRegularFaNum.ttf) format(.ttf);
-    src: url(../webfonts/IRANYekanMediumFaNum.ttf) format(.ttf);
-    src: url(../webfonts/IRANYekanLightFaNum.ttf) format(.ttf);
-    src: url(../webfonts/IRANYekanExtraBoldFaNum.ttf) format(.ttf);
-    src: url(../webfonts/IRANYekanExtraBlackFaNum.ttf) format(.ttf);
-    src: url(../webfonts/IRANYekanBoldFaNum.ttf) format(.ttf);
-    src: url(../webfonts/IRANYekanBlackFaNum.ttf) format(.ttf);
+@import "color.css";
+@font-face {
+  font-family: iranyekan;
+  src: url(../webfonts/IRANYekanThinFaNum.ttf) format(.ttf);
+  src: url(../webfonts/IRANYekanRegularFaNum.ttf) format(.ttf);
+  src: url(../webfonts/IRANYekanMediumFaNum.ttf) format(.ttf);
+  src: url(../webfonts/IRANYekanLightFaNum.ttf) format(.ttf);
+  src: url(../webfonts/IRANYekanExtraBoldFaNum.ttf) format(.ttf);
+  src: url(../webfonts/IRANYekanExtraBlackFaNum.ttf) format(.ttf);
+  src: url(../webfonts/IRANYekanBoldFaNum.ttf) format(.ttf);
+  src: url(../webfonts/IRANYekanBlackFaNum.ttf) format(.ttf);
 }
-#h1-div{
-    margin-top: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+#h1-div {
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
-#table-div{
-    margin-top: 30px;
-    /* text-align: center; */
-    font-family: iransans;
-    padding-bottom: 20;
-    overflow-x: auto;
+#table-div {
+  margin-top: 30px;
+  /* text-align: center; */
+  font-family: iransans;
+  padding-bottom: 20;
+  overflow-x: auto;
 }
-table{
-    direction: rtl;
-    text-align: center;
-    border-collapse: collapse;
-    /* border-radius: 10px; */
-    width: 90%;
-    margin: auto;
+table {
+  direction: rtl;
+  text-align: center;
+  border-collapse: collapse;
+  /* border-radius: 10px; */
+  width: 90%;
+  margin: auto;
 }
-th, td{
-    height: 45px;
-    padding: 15px;
-    /* border-radius: 5px; */
+th,
+td {
+  height: 45px;
+  padding: 15px;
+  /* border-radius: 5px; */
 }
 tr:nth-child(odd) {
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
-tr:hover{
-    background-color: coral;
+tr:hover {
+  background-color: coral;
 }
-#col1-id{
-    background-color: cyan;
+#col1-id {
+  background-color: cyan;
 }
-#form-id{
-    padding-top: 20px;
-    text-align: center;
-    font-family: iransans;
+#form-id {
+  padding-top: 20px;
+  text-align: center;
+  font-family: iransans;
 }
-input{
-    direction: rtl;
-    border-radius: 15px;
-    height: 35px;
-    width: 250px;
-    font-family: iransans;
+input {
+  direction: rtl;
+  border-radius: 15px;
+  height: 35px;
+  width: 250px;
+  font-family: iransans;
 }
-button{
-    font-family: iransans;
-    width: 100px;
-    height: 35px;
-    cursor: pointer;
-    border-radius: 10px;
-    border: none;
-    background-color: lawngreen;
-    }
-    input[type="button"],[type="reset"],[type="file"]{
-        cursor: pointer;
-    }
-#table-form{
-    width: 70%;
+button {
+  font-family: iransans;
+  width: 100px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  background-color: lawngreen;
 }
-#span-id{
-    font-family: iransan;
+input[type="button"],
+[type="reset"],
+[type="file"] {
+  cursor: pointer;
 }
-select{
-    margin: 30px;
-    direction: rtl;
-    font-family: iransans;
-    border-radius: 20;
-    height: 35px;
-    width: 250px;
-    border: 1px dashed;
+#table-form {
+  width: 70%;
 }
-textarea{
-    font-family: iranyekan;
-    direction: rtl;
-    font-size: 14px;
-    height: 160px;
-    width: 350px;
-    margin-bottom: 30px;
-    margin-top: 10px;
-    border-radius: 15px;
-    border-width: 1px;
-    color: rgb(94, 94, 94);
+#span-id {
+  font-family: iransan;
 }
-video{
-    margin: 20px;
+select {
+  margin: 30px;
+  direction: rtl;
+  font-family: iransans;
+  border-radius: 20;
+  height: 35px;
+  width: 250px;
+  border: 1px dashed;
 }
-#example{
-    text-align: center;
-    /* background-color: aquamarine; */
+textarea {
+  font-family: iranyekan;
+  direction: rtl;
+  font-size: 14px;
+  height: 160px;
+  width: 350px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  border-radius: 15px;
+  border-width: 1px;
+  color: rgb(94, 94, 94);
 }
-.box{
-    border-radius: 20px;
-    display: inline-block;
-    height: 150px;
-    width: 150px;
-    margin: 20px;
+video {
+  margin: 20px;
 }
-.micon1{
-    display: inline-block;
-    color: white;
-    font-size: 25px;
-    cursor: pointer;
-    margin-top: 30%;
+#example {
+  text-align: center;
+  /* background-color: aquamarine; */
 }
-.backcol-yellow{
-    background-color: #fab005;
+.box {
+  border-radius: 20px;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  margin: 20px;
 }
-.backcol-blue{
-    background-color: #3bc9db;
+.micon1 {
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  margin-top: 30%;
 }
-.backcol-green{
-    background-color: #63e6be;
+.backcol-yellow {
+  background-color: #fab005;
 }
-.yekanfont{
-    font-family: IRANYekan;
-    font-size: 16px;
-    font-weight: 700;
+.backcol-blue {
+  background-color: #3bc9db;
 }
-.div-test-shadow{
-    text-align: center;
-    vertical-align: middle;
+.backcol-green {
+  background-color: #63e6be;
 }
-.test-shadow{
-    font-family: IRANYekan;
-    font-size: 140px;
-    text-shadow: 3px 3px red, 6px 6px orange, 9px 9px green, 12px 12px rgb(9, 94, 9), 16px 16px rgb(11, 11, 143), 23px 23px rgb(184, 23, 23);
+.yekanfont {
+  font-family: IRANYekan;
+  font-size: 16px;
+  font-weight: 700;
 }
-p.yekanfont:hover{
-    font-size: 18px;
-    color: rgb(255, 254, 211);
+.div-test-shadow {
+  text-align: center;
+  vertical-align: middle;
 }
-a:visited{
-    color: crimson !important;
+.test-shadow {
+  font-family: IRANYekan;
+  font-size: 140px;
+  text-shadow: 3px 3px red, 6px 6px orange, 9px 9px green,
+    12px 12px rgb(9, 94, 9), 16px 16px rgb(11, 11, 143),
+    23px 23px rgb(184, 23, 23);
 }
-a:hover{
-    font-size: 18px;
+p.yekanfont:hover {
+  font-size: 18px;
+  color: rgb(255, 254, 211);
 }
-a:link{
-    text-decoration: none;
+a:visited {
+  color: crimson !important;
 }
-button{
-    box-shadow: 2px 3px rgb(18, 169, 18);
+a:hover {
+  font-size: 18px;
 }
-button:hover{
-    box-shadow: 2px 3px rgb(8, 87, 8);
-    font-size: 14px;
-    font-weight: 500;
+a:link {
+  text-decoration: none;
 }
-button:active{
-    box-shadow: 1px 1px rgb(11, 122, 11);
-    font-size: 12px;
-    font-weight: 400;
+button {
+  box-shadow: 2px 3px rgb(18, 169, 18);
 }
-div.list{
-    direction: rtl;
+button:hover {
+  box-shadow: 2px 3px rgb(8, 87, 8);
+  font-size: 14px;
+  font-weight: 500;
 }
-ul{
-    list-style: none;
+button:active {
+  box-shadow: 1px 1px rgb(11, 122, 11);
+  font-size: 12px;
+  font-weight: 400;
 }
-ol{
-    list-style-position: inside;
+div.list {
+  direction: rtl;
 }
-ul.list{
-    padding: 0px;
-    direction: rtl;
-    text-align: center;
-    background-color: #212d3f;
-
+ul {
+  list-style: none;
 }
-h1.list{
-    direction: rtl;
-    text-align: center;
-    font-size: 24px;
-    background-color: aliceblue;
+ol {
+  list-style-position: inside;
 }
-li.menue{
-    display: inline-block;
-    padding: 18px 45px;
-    cursor: pointer;
-    background-color: #212d3f;
-    color: rgb(255, 255, 255);
-    border-left: 1px solid #304665;
-    margin: 0px -5px 0px 0px;
+ul.list {
+  padding: 0px;
+  direction: rtl;
+  text-align: center;
+  background-color: #212d3f;
 }
-li.menue:hover{
-    color: rgb(211, 225, 239);
-    background-color: #384b69;
+h1.list {
+  direction: rtl;
+  text-align: center;
+  font-size: 24px;
+  background-color: aliceblue;
 }
-li.menue:active{
-    color: rgb(211, 225, 239);
-    background-color: #0494da;
+li.menue {
+  display: inline-block;
+  padding: 18px 45px;
+  cursor: pointer;
+  background-color: #212d3f;
+  color: rgb(255, 255, 255);
+  border-left: 1px solid #304665;
+  margin: 0px -5px 0px 0px;
 }
-.icon-list{
-    font-size: 15px;
-    padding:0px 0px 0px 8px;
-    margin: 0px;
-    position: relative;
-    left: 5px;
+li.menue:hover {
+  color: rgb(211, 225, 239);
+  background-color: #384b69;
 }
-#spn-lbl-top{
-    position: absolute;
-    top: 0px;
+li.menue:active {
+  color: rgb(211, 225, 239);
+  background-color: #0494da;
 }
-#label-top{
-    position: relative;
-    width: 110px;
+.icon-list {
+  font-size: 15px;
+  padding: 0px 0px 0px 8px;
+  margin: 0px;
+  position: relative;
+  left: 5px;
 }
-#lbl-txt{
-    position: relative;
-    bottom: 190px;
-    left: 16px;
-    color: white;
-    font-size: 38px;
+#spn-lbl-top {
+  position: absolute;
+  top: 0px;
 }
-#lbl-txt2{
-    position: relative;
-    bottom: 226px;
-    left: 16px;
-    color: white;
-    font-size: 16px;
+#label-top {
+  position: relative;
+  width: 110px;
 }
-#spn-stick{
-    position: sticky;
-    margin-left: 40px;
-    top: 0px;
-    z-index: 1;
+#lbl-txt {
+  position: relative;
+  bottom: 190px;
+  left: 16px;
+  color: white;
+  font-size: 38px;
 }
-body{
-    display: contents;
+#lbl-txt2 {
+  position: relative;
+  bottom: 226px;
+  left: 16px;
+  color: white;
+  font-size: 16px;
+}
+#spn-stick {
+  position: sticky;
+  margin-left: 40px;
+  top: 0px;
+  z-index: 1;
+}
+body {
+  display: contents;
 }

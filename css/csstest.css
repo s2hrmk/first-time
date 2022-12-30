@@ -1,0 +1,106 @@
+.main-div{
+    margin: auto;
+    height: 100;
+    width: 100%;
+    background: rgb(221, 221, 221, 70%);
+}
+#secend-div{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+}
+#third-div{
+    margin-top: 10px;
+    width: 100px;
+    height: 150px;
+    text-align: center;
+    display: inline-block;
+}
+#fourth-div{
+    width: 100px;
+    height: 200px;
+    text-align: center;
+    margin-right: 20px;
+    border: 7px solid white;
+    outline: 1px solid black;
+    outline-offset: 2px;
+    display: inline-block;
+}
+#test{
+    margin: auto;
+    height: 100;
+    width: 100%;
+    background: rgb(221, 221, 221, 70%);
+}
+#div-1{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+}
+#div-2{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    text-align: center;
+    display: inline-block;
+}
+#div-3{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    text-align: center;
+    display: inline-block;
+}
+.bgcolor-red{
+    background-color: red;
+}
+.bgcolor-blue{
+    background-color: blue;
+}
+.bgcolor-green{
+    background-color: green;
+}
+body{
+    margin-top: 0px;
+    background: url('../images/bgpattern.webp');
+}
+.font-iransans{
+    font-family: iransans;
+}
+.color-white{
+    color: white;
+}
+.color-yellow{
+    color: yellow;
+}
+.font-size3{
+    font-size: 3vmin;
+}
+p{
+    padding: 15px;
+    /* line-height: 4; */
+    /* word-spacing: 10px; */
+    /* white-space: nowrap; */
+}
+#my-name-s1{
+
+}
+#my-name3{
+    border: 1px solid white;
+    letter-spacing: -2px;
+}
+h1{
+    margin: 0px;
+    /* text-shadow: 2px 2px 3px rgb(190, 255, 255, 60%) !important; */
+}
+p.sutitr{
+    border: 1px solid;
+    width: 180px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-left: 15px;
+}

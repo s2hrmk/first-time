@@ -1,0 +1,32 @@
+#main-div{
+    position: relative;
+    text-align: right;
+}
+input{
+    position: relative;
+    direction: rtl; 
+    border-radius: 15px;
+    height: 35px;
+    width: 250px;
+    font-family: iransans;
+}
+label{
+    font-family: iransans;
+    direction: rtl;
+    text-align: right;
+}
+select{
+    font-family: iransans;
+    direction: rtl;
+    border-radius: 10px;
+}
+textarea{
+    font-family: iransans;
+    direction: rtl;
+    border-radius: 10px;
+}
+input[type="submit"]{
+    font-family: iransans;
+    border: none;
+    background-color: lawngreen;
+}

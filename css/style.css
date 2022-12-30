@@ -1,0 +1,64 @@
+#container {
+  position: absolute;
+  background-color: aqua;
+}
+#headerdiv {
+  height: auto;
+  width: auto;
+  text-align: center;
+}
+#head1 {
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+#inputname {
+  direction: ltr;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.UserName {
+  border-radius: 5px;
+  height: 40px;
+  width: 280px;
+}
+#alert_button {
+  height: 35px;
+  width: 180px;
+  cursor: pointer; /*change pointer to hand on mouse over*/
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(136, 255, 127);
+  font-weight: 700;
+}
+#print_sum {
+  font-family: iranyekan;
+  font-size: 16;
+}
+#sptext {
+  color: red;
+  font-style: normal;
+  text-decoration: underline;
+  font-weight: 700;
+}
+#hamid {
+  padding: 2%;
+  font-style: italic;
+}
+li {
+  font-family: iranyekan;
+}
+#dt-title {
+  direction: rtl;
+  font-family: iranyekan;
+  margin: 25px;
+}
+#landing-header {
+  font-family: b titr;
+}
+#mnlogo {
+  margin-bottom: 20pt;
+}
+#item-id{
+  cursor: pointer;
+}

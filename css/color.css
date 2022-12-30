@@ -1,0 +1,33 @@
+.back-g-red {
+    background-color: #ea1616;
+}
+.text-col-white{
+    color: white;
+}
+.text-col-red{
+    color: rgb(238, 15, 15);
+}
+.text-col-orange{
+    color: rgb(231, 154, 22);
+}
+.text-col-green{
+    color: rgb(73, 194, 81);
+}
+.text-col-dgreen{
+    color: rgb(18, 119, 70);
+}
+.text-col-dblue{
+    color: rgb(18, 33, 119);
+}
+.text-col-dred{
+    color: rgb(108, 16, 16);
+}
+.bgc-dark-blue{
+    background-color: #212d3f;
+}
+.bgc-dark-lither-blue{
+    background-color: #304565;
+}
+.bgc-select-blue{
+    background-color: #0494da;
+}
